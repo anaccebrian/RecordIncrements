@@ -20,10 +20,11 @@ Sim_Joint<-function(ssampYP=sampYP,IIsim=Isim)
 
 #Code to apply the function
 
-load("C:\\Users\\PC\\Desktop\\AnaE9RecordsExpl\\DatosSim\\SimDataMarg.RData")
+load("C:\\Users\\PC\\Desktop\\AnaE9RecordsExpl\\DatosSim\\Sim_Data_Marg.RData")
 load("G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\Grid_Spat_Isim.RData")
 sampYPJ<-Sim_Joint(ssampYP=sampYP,IIsim=Isim)
-save(sampYPJ, file="C:/Users/PC/Desktop/AnaE9RecordsExpl/DatosSim/SimDataJoint.RData")
+
+#save(sampYPJ,file="C:/Users/PC/Desktop/AnaE9RecordsExpl/DatosSim/Sim_Data_Joint.RData")
 
 
 
@@ -56,7 +57,7 @@ Mean_Averages<-function(ssampYP=sampYPJ, iindexS=indexS,nnP=nP, nnL=nL)
 
 #Code to apply the function
 
-load("C:\\Users\\PC\\Desktop\\AnaE9RecordsExpl\\DatosSim\\SimDataJoint.RData")
+load("C:\\Users\\PC\\Desktop\\AnaE9RecordsExpl\\DatosSim\\Sim_Data_Joint.RData")
 load("G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\Grid_Spat_Cov.RData")
 source("G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Ficheros_Z\\Function_MapSpatial.R")
 
@@ -84,6 +85,7 @@ mapSpatial(Z= Avesum30J$AveJmean,
 
 
 # RData file containing all the summaries compued in this file
-save(,file="G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\AInc_Joint_Summaries.RData")
+
+#save(Avesum30J,file="G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\AInc_Joint_Summaries.RData")
 
 
