@@ -108,5 +108,5 @@ nndays<-Gof_Spatialaverages(index=datosvC2$dayInd,fitted=fittedM,
  	Inc=datosvC2$IncS/10,ssampY=sampY/10, type="Days",xaxis=c(1:92))
 #dev.off()
 
-save(sampleP, sampY, file="C:/Users/PC/Desktop/AnaE9RecordsExpl/DatosSim/Sim_Samples_Obs.RData")
+#save(sampleP, sampY, file="C:/Users/PC/Desktop/AnaE9RecordsExpl/DatosSim/Sim_Samples_Obs.RData")
 

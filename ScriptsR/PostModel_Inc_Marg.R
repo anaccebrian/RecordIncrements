@@ -8,7 +8,7 @@
 
 ### Loading data
 load("G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\Grid_Spat_Cov.RData")
-load("C:\\Users\\PC\\Desktop\\AnaE9RecordsExpl\\DatosSim\\SimDataMarg.RData")
+load("C:\\Users\\PC\\Desktop\\AnaE9RecordsExpl\\DatosSim\\Sim_Data_Marg.RData")
 source("G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Ficheros_Z\\Function_MapSpatial.R")
 
 

@@ -91,6 +91,6 @@ sampYP1<-Sim_Cond(Ilag=1, mseed=2341)
 sampYP0<-Sim_Cond(Ilag=0, mseed=7651)
 
 
-save(sampYP0, sampYP1, file="C:/Users/PC/Desktop/AnaE9RecordsExpl/DatosSim/SimDataCond.RData")
+#save(sampYP0, sampYP1, file="C:/Users/PC/Desktop/AnaE9RecordsExpl/DatosSim/Sim_Data_Cond.RData")
 
 

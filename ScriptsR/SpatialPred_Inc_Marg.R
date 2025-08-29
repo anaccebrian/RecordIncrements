@@ -109,8 +109,8 @@ load("G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\Selected_Model.RData")
 
 sampYP<-Sim_Marg(IIsimlag=Isimlag, mseed=2341)
 
-#guardar fichero viejo primero!!
-save(sampYP, file="C:/Users/PC/Desktop/AnaE9RecordsExpl/DatosSim/SimDataMarg.RData")
+
+#save(sampYP,file="C:/Users/PC/Desktop/AnaE9RecordsExpl/DatosSim/Sim_Data_Marg.RData")
 
 
 

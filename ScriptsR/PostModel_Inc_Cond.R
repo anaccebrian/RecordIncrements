@@ -22,7 +22,7 @@ require("sp")
 
 
 load("G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\Grid_Spat_Cov.RData")
-load("C:\\Users\\PC\\Desktop\\AnaE9RecordsExpl\\DatosSim\\SimDataCond.RData")
+load("C:\\Users\\PC\\Desktop\\AnaE9RecordsExpl\\DatosSim\\Sim_Data_Cond.RData")
 source("G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Ficheros_Z\\Function_MapSpatial.R")
 
 meanDmean0D6<-CondMeanInc(ssampYP=sampYP0,period=c(52,62))
@@ -80,5 +80,6 @@ mapSpatial(Z=((meanDmean1D3-meanDmean0D3)),
 
 mmeanDmean<-cbind(meanDmean0D3,meanDmean1D3,meanDmean0D4,meanDmean1D4,
                   meanDmean0D5,meanDmean1D5,meanDmean0D6,meanDmean1D6)
-save(mmeanDmean, file="G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\Con_Mean_Inc.RData")
+
+#save(mmeanDmean,file="G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\Cond_Mean_Inc.RData")
 

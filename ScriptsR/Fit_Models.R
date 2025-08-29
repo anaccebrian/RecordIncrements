@@ -214,7 +214,7 @@ MSelT<-inla(formula, data=inla.stack.data(stack1,spde=spdepc),
             control.mode = list(theta =thetaMS7ar,restart=FALSE)
 )
 
-save(MSel, MSelT,datosvC2,mesh, A, stack1,nT, nL, nS,
+#save(MSel, MSelT,datosvC2,mesh, A, stack1,nT, nL, nS,
     file="G:\\Mi unidad\\Espacial\\E9RecordsExpl\\Datos_Z\\Selected_Model.RData")
 
 
